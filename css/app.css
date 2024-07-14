@@ -1,4 +1,20 @@
-
+h1,h2,h3,h4,h5,h6{
+    color: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+}
+form, buttom,
+input,
+textarea,
+select {
+    font-family: inherit;
+    font-size: inherit;
+    -webkit-hyphens: auto;
+        hyphens: auto;
+    background-color: transparent;
+    display: flex;
+    color: inherit;
+}
 body{
     font-family: var(--tipo-principal);
     font-size: 100%;
