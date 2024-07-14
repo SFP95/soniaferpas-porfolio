@@ -1,3 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+img, figure{
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+p a {
+    display: none;
+}
+li{
+    list-style-type: none;
+}
+table,tr,td{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
 h1,h2,h3,h4,h5,h6{
     color: inherit;
     font-weight: inherit;
@@ -73,8 +104,9 @@ body{
 .section .p{}
 .section .grid{
     width: 90%;
-    background: rgba(255, 255, 255, 0.479);
-    align-items: center;
+    background: rgba(0, 0, 0, 0.076);
+    margin: 1em 0;
+    max-width: 40em;
 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax( 10rem,1fr));
@@ -82,16 +114,53 @@ body{
 }
 .section .article{
     width: 100%;
-    background: rgba(0, 0, 0, 0.479);
+    min-height: 20vh;
+    background: rgba(255, 255, 255, 0.479);
+
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
 }
 .section .a{}
-.section .figure{}
-.section .img{}
-.section .h4{}
+.section .figure{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.076);
+}
+.section .img{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.306);
+}
+.section .h4{
+    width: 100%;
+    height: 30%;
+    background: rgb(128, 99, 166);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .about{}
-.about .h2{}
-.about .p{}
+.about .h2{
+    margin: 0 0 1em;
+}
+.about .p{
+    max-width: 40em;
+    background: rgb(128, 99, 166);
+    margin: 0 0 1em;
+    text-align: justify;
+    
+}
 .about .rrss{}
 .about .li{}
 .about .a{}
