@@ -23,3 +23,28 @@ body{
     -webkit-font-smoothing: antialiased;
     -moz-osx-smoothing: grayscale;
 }
+.header{
+    width: 100%;
+    min-height: 5em;
+
+    padding: 1em 2em;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .h1{
+}
+.header .h1 .a{}
+.header .nav{}
+.header .ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .li{
+    margin: 0 1em;
+}
+.header .li .a{}
