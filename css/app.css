@@ -1,0 +1,9 @@
+
+body{
+    font-family: var(--tipo-principal);
+    font-size: 100%;
+    background-color: var(--blanco);
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-smoothing: grayscale;
+}
