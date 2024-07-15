@@ -99,14 +99,14 @@ body{
 .section .circulos{}
 .section .circulo{}
 .section .ul{
-    background: rgb(128, 99, 166);
+    /*background: rgb(128, 99, 166);*/
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
 }
 .section .ul .li{
-    background: rgb(128, 99, 166);
+/*background: rgb(128, 99, 166);*/
     margin: 0 1em;
 }
 .section .h2{}
@@ -118,6 +118,7 @@ body{
     background: rgba(0, 0, 0, 0.076);
     margin: 1em 0;
     max-width: 40em;
+    border-radius: 5%;
 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax( 10rem,1fr));
@@ -127,7 +128,7 @@ body{
     width: 100%;
     min-height: 20vh;
     background: rgba(255, 255, 255, 0.479);
-
+    border-radius: 5%;
 
     display: flex;
     flex-flow: column wrap;
@@ -153,6 +154,7 @@ body{
     width: 100%;
     bottom: 0;
     left: 0;
+    border-radius: 5%;
 
     display: flex;
     flex-flow: column wrap;
