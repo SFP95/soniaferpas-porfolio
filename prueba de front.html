@@ -52,10 +52,28 @@
         .section-content {
             margin: 1.5rem 0;
         }
+        .about-content {
+            display: flex;
+            align-items: center;
+        }
+        .about-content img {
+            margin-right: 1rem;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
         .project {
+            display: flex;
+            align-items: center;
             background-color: #e6e6fa; /* Lavanda */
             padding: 1rem;
             margin: 1rem 0;
+            border-radius: 8px;
+        }
+        .project img {
+            width: 100px;
+            height: 100px;
+            margin-right: 1rem;
             border-radius: 8px;
         }
         .contact-info {
@@ -77,6 +95,9 @@
             width: 100%;
             bottom: 0;
         }
+        .project:hover {
+            background-color: #dcd0ff;
+        }
     </style>
 </head>
 <body>
@@ -91,7 +112,8 @@
     <div class="container">
         <section id="about">
             <h2 class="section-title">Sobre Mí</h2>
-            <div class="section-content">
+            <div class="section-content about-content">
+                <img src="img\foto_corporativa.jpg" alt="Foto" class="profile-pic">
                 <p>Hola, soy Sonia Fernandez Pascual, una programadora con poco más de un año de experiencia en el sector, con inclinaciones hacia el frontend. Me apasiona crear interfaces de usuario atractivas y funcionales, y siempre estoy buscando nuevas oportunidades para aprender y crecer en mi carrera profesional.</p>
             </div>
         </section>
@@ -99,12 +121,18 @@
             <h2 class="section-title">Proyectos</h2>
             <div class="section-content">
                 <div class="project">
-                    <h3>Proyecto 1</h3>
-                    <p>Descripción del proyecto 1. Aquí puedes mencionar las tecnologías usadas y los desafíos superados.</p>
+                    <img src="img\galeria.png" alt="Proyecto 1" class="ImgProyect">
+                    <div>
+                        <h3>Proyecto 1</h3>
+                        <p>Descripción del proyecto 1. Aquí puedes mencionar las tecnologías usadas y los desafíos superados.</p>
+                    </div>
                 </div>
                 <div class="project">
-                    <h3>Proyecto 2</h3>
-                    <p>Descripción del proyecto 2. Aquí puedes mencionar las tecnologías usadas y los desafíos superados.</p>
+                    <img src="img\galeria.png" alt="Proyecto 2" class="ImgProyect">
+                    <div>
+                        <h3>Proyecto 2</h3>
+                        <p>Descripción del proyecto 2. Aquí puedes mencionar las tecnologías usadas y los desafíos superados.</p>
+                    </div>
                 </div>
                 <!-- Añadir más proyectos según sea necesario -->
             </div>
@@ -113,9 +141,9 @@
             <h2 class="section-title">Contacto</h2>
             <div class="section-content">
                 <ul class="contact-info">
-                    <li>Email: sonia@example.com</li>
-                    <li>Teléfono: +34 123 456 789</li>
-                    <li>LinkedIn: <a href="https://www.linkedin.com/in/sonia" target="_blank">linkedin.com/in/sonia</a></li>
+                    <li>Email: soniaf.pas.95@gmail.com</li>
+                    <li>Teléfono: +34 666 526 939</li>
+                    <li>LinkedIn: <a href="https://www.linkedin.com/in/sonia-fernandez-pascual-388902101/" target="_blank">Sonia Fernández Pascual</a></li>
                     <!-- Añadir más métodos de contacto si es necesario -->
                 </ul>
             </div>
@@ -124,5 +152,13 @@
     <footer>
         &copy; 2024 Sonia Fernandez Pascual
     </footer>
+
+    <script>
+        document.querySelectorAll('.project').forEach(project => {
+            project.addEventListener('click', () => {
+                alert('Más información sobre ' + project.querySelector('h3').innerText);
+            });
+        });
+    </script>
 </body>
 </html>
