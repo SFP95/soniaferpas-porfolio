@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonia Fernandez Pascual - Portafolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #d8bfd8; /* Morado pastel */
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            background-color: #dda0dd; /* Morado pastel más oscuro */
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .section-title {
+            color: #9370db; /* Morado pastel medio */
+            border-bottom: 2px solid #dda0dd;
+            padding-bottom: 0.5rem;
+        }
+        .section-content {
+            margin: 1.5rem 0;
+        }
+        .project {
+            background-color: #e6e6fa; /* Lavanda */
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 8px;
+        }
+        .contact-info {
+            list-style-type: none;
+            padding: 0;
+        }
+        .contact-info li {
+            background-color: #add8e6; /* Azul pastel */
+            margin: 0.5rem 0;
+            padding: 0.5rem;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #d8bfd8; /* Morado pastel */
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sonia Fernandez Pascual</h1>
+    </header>
+    <nav>
+        <a href="#about">Sobre Mí</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2 class="section-title">Sobre Mí</h2>
+            <div class="section-content">
+                <p>Hola, soy Sonia Fernandez Pascual, una programadora con poco más de un año de experiencia en el sector, con inclinaciones hacia el frontend. Me apasiona crear interfaces de usuario atractivas y funcionales, y siempre estoy buscando nuevas oportunidades para aprender y crecer en mi carrera profesional.</p>
+            </div>
+        </section>
+        <section id="projects">
+            <h2 class="section-title">Proyectos</h2>
+            <div class="section-content">
+                <div class="project">
+                    <h3>Proyecto 1</h3>
+                    <p>Descripción del proyecto 1. Aquí puedes mencionar las tecnologías usadas y los desafíos superados.</p>
+                </div>
+                <div class="project">
+                    <h3>Proyecto 2</h3>
+                    <p>Descripción del proyecto 2. Aquí puedes mencionar las tecnologías usadas y los desafíos superados.</p>
+                </div>
+                <!-- Añadir más proyectos según sea necesario -->
+            </div>
+        </section>
+        <section id="contact">
+            <h2 class="section-title">Contacto</h2>
+            <div class="section-content">
+                <ul class="contact-info">
+                    <li>Email: sonia@example.com</li>
+                    <li>Teléfono: +34 123 456 789</li>
+                    <li>LinkedIn: <a href="https://www.linkedin.com/in/sonia" target="_blank">linkedin.com/in/sonia</a></li>
+                    <!-- Añadir más métodos de contacto si es necesario -->
+                </ul>
+            </div>
+        </section>
+    </div>
+    <footer>
+        &copy; 2024 Sonia Fernandez Pascual
+    </footer>
+</body>
+</html>
