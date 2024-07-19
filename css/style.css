@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8e2f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #a997df; 
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+nav {
+    background-color: #4f517d; 
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #dccfec;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.section-title {
+    color: #4f517d; /* Morado pastel medio */
+    border-bottom: 2px solid #1a3a3a;
+    padding-bottom: 0.5rem;
+}
+.section-content {
+    margin: 1.5rem 0;
+}
+.about-content {
+    display: flex;
+    align-items: center;
+}
+.about-content img {
+    margin-right: 1rem;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.project {
+    display: flex;
+    align-items: center;
+    background-color: #a997df; /* Lavanda */
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+}
+.project img {
+    width: 100px;
+    height: 100px;
+    margin-right: 1rem;
+    border-radius: 8px;
+}
+.contact-info {
+    list-style-type: none;
+    padding: 0;
+}
+.contact-info li {
+    background-color: #a997df; /* Azul pastel */
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #4f517d; /* Morado pastel */
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.project:hover {
+    background-color: #dcd0ff;
+}

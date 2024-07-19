@@ -4,102 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sonia Fernandez Pascual - Portafolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #d8bfd8; /* Morado pastel */
-            color: white;
-            padding: 1rem 0;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
-        nav {
-            background-color: #dda0dd; /* Morado pastel más oscuro */
-            color: white;
-            display: flex;
-            justify-content: center;
-            padding: 0.5rem 0;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 1rem;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        .container {
-            max-width: 800px;
-            margin: 2rem auto;
-            padding: 1rem;
-            background-color: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .section-title {
-            color: #9370db; /* Morado pastel medio */
-            border-bottom: 2px solid #dda0dd;
-            padding-bottom: 0.5rem;
-        }
-        .section-content {
-            margin: 1.5rem 0;
-        }
-        .about-content {
-            display: flex;
-            align-items: center;
-        }
-        .about-content img {
-            margin-right: 1rem;
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-        }
-        .project {
-            display: flex;
-            align-items: center;
-            background-color: #e6e6fa; /* Lavanda */
-            padding: 1rem;
-            margin: 1rem 0;
-            border-radius: 8px;
-        }
-        .project img {
-            width: 100px;
-            height: 100px;
-            margin-right: 1rem;
-            border-radius: 8px;
-        }
-        .contact-info {
-            list-style-type: none;
-            padding: 0;
-        }
-        .contact-info li {
-            background-color: #add8e6; /* Azul pastel */
-            margin: 0.5rem 0;
-            padding: 0.5rem;
-            border-radius: 8px;
-        }
-        footer {
-            text-align: center;
-            padding: 1rem 0;
-            background-color: #d8bfd8; /* Morado pastel */
-            color: white;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-        .project:hover {
-            background-color: #dcd0ff;
-        }
-    </style>
-</head>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/app.js"></script>
 <body>
     <header>
         <h1>Sonia Fernandez Pascual</h1>
@@ -152,13 +58,5 @@
     <footer>
         &copy; 2024 Sonia Fernandez Pascual
     </footer>
-
-    <script>
-        document.querySelectorAll('.project').forEach(project => {
-            project.addEventListener('click', () => {
-                alert('Más información sobre ' + project.querySelector('h3').innerText);
-            });
-        });
-    </script>
 </body>
 </html>
