@@ -1,12 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #e8e2f0;
-    color: #333;
+    background-color: #f0f4f8;
+    color: #333333;
     margin: 0;
     padding: 0;
 }
 header {
-    background-color: #a997df; 
+    background-color: #6A5ACD; /* Lila */
     color: white;
     padding: 1rem 0;
     text-align: center;
@@ -16,7 +16,7 @@ header h1 {
     font-size: 2.5rem;
 }
 nav {
-    background-color: #4f517d; 
+    background-color: #9370DB; /* Morado */
     color: white;
     display: flex;
     justify-content: center;
@@ -34,12 +34,12 @@ nav a:hover {
     max-width: 800px;
     margin: 2rem auto;
     padding: 1rem;
-    background-color: #dccfec;
+    background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .section-title {
-    color: #4f517d; /* Morado pastel medio */
-    border-bottom: 2px solid #1a3a3a;
+    color: #6A5ACD; /* Lila */
+    border-bottom: 2px solid #9370DB; /* Morado */
     padding-bottom: 0.5rem;
 }
 .section-content {
@@ -47,7 +47,7 @@ nav a:hover {
 }
 .about-content {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 .about-content img {
     margin-right: 1rem;
@@ -58,7 +58,7 @@ nav a:hover {
 .project {
     display: flex;
     align-items: center;
-    background-color: #a997df; /* Lavanda */
+    background-color: #E6E6FA; /* Lavanda */
     padding: 1rem;
     margin: 1rem 0;
     border-radius: 8px;
@@ -74,7 +74,7 @@ nav a:hover {
     padding: 0;
 }
 .contact-info li {
-    background-color: #a997df; /* Azul pastel */
+    background-color: #D8BFD8; /* Thistle */
     margin: 0.5rem 0;
     padding: 0.5rem;
     border-radius: 8px;
@@ -82,12 +82,12 @@ nav a:hover {
 footer {
     text-align: center;
     padding: 1rem 0;
-    background-color: #4f517d; /* Morado pastel */
+    background-color: #6A5ACD; /* Lila */
     color: white;
     position: fixed;
     width: 100%;
     bottom: 0;
 }
 .project:hover {
-    background-color: #dcd0ff;
+    background-color: #DCD0FF; /* Lavanda más clara */
 }
